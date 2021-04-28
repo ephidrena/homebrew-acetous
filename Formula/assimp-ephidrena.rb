@@ -1,4 +1,4 @@
-class Assimp < Formula
+class AssimpEphidrena < Formula
   desc "Ephidrena-curdled library for importing many well-known 3D model formats"
   homepage "https://www.assimp.org/"
   url "https://github.com/ephidrena/assimp/archive/v0.0.1-poc.tar.gz"
