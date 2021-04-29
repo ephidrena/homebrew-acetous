@@ -1,7 +1,8 @@
 class AssimpEphidrena < Formula
   desc "Ephidrena-curdled library for importing many well-known 3D model formats"
   homepage "https://www.assimp.org/"
-  url "https://github.com/ephidrena/assimp/archive/v0.0.1-poc.tar.gz"
+  url  "https://github.com/ephidrena/assimp/archive/refs/tags/v0.0.2-ephtest.tar.gz"
+  sha256 "382da3780a611da94f952a95290eb959bd63ee2b898406e348056a692e0f0818"
   license :cannot_represent
   head "https://github.com/ephidrena/assimp.git"
 
@@ -63,4 +64,3 @@ class AssimpEphidrena < Formula
     system bin/"assimp", "export", "test.obj", "test.ply"
   end
 end
-
