@@ -6,6 +6,12 @@ class AssimpEphidrena < Formula
   license :cannot_represent
   head "https://github.com/ephidrena/assimp.git"
 
+  bottle do
+    root_url "https://github.com/ephidrena/homebrew-acetous/releases/download/assimp-ephidrena-0.0.2"
+    sha256 cellar: :any,                 catalina:     "70f60a903d4250ed2e6763d5eda75858776751fa003e9c003862b57c8291e09a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b4d611751f9995efee916b32bf64fb6bd4aa65820d09156f8e940dfbbb68c771"
+  end
+
   depends_on "cmake" => :build
 
   uses_from_macos "zlib"
